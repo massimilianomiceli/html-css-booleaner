@@ -16,3 +16,35 @@
     margin-top: 20px;
     margin-left: 50px;
 }
+
+.sito-corpo{
+    margin-left: 50px;
+    margin-right: 50 px;
+}
+
+.articolo-titolo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.articolo-autore{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A4A4A4;
+}
+
+.articolo-data{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A4A4A4;
+}
+
+#the-booleaner{
+    color: #54A3BE;
+    font-weight: bold;
+        margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
