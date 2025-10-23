@@ -1,0 +1,18 @@
+.sito-intestazione{
+    background-image: url(./img/pattern.png);
+    background-repeat: repeat-x;
+    background-color: #4EA1FF;
+    background-size: 200px;
+    block-size: 50px;
+}
+
+.sito-titolo{
+    font: transparent;
+    font-size: 0px;
+}
+
+.logo{
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
