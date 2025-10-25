@@ -1,3 +1,8 @@
+#the-booleaner{
+    color: #54A3BE;
+    font-weight: bold;
+}
+
 .sito-intestazione{
     background-image: url(./img/pattern.png);
     background-repeat: repeat-x;
@@ -17,34 +22,87 @@
     margin-left: 50px;
 }
 
-.sito-corpo{
+.pagina-bordi{
     margin-left: 50px;
-    margin-right: 50 px;
+    margin-right: 50px;
 }
 
 .articolo-titolo{
-    font-size: 30px;
-    font-weight: bold;
+    margin-top: 10px;
     margin-bottom: 0px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.font-grigio{
+    color: #A4A4A4;
+    font-size: medium;
 }
 
 .articolo-autore{
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #A4A4A4;
 }
 
 .articolo-data{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: #A4A4A4;
+    font-size: smaller;
 }
 
-#the-booleaner{
-    color: #54A3BE;
-    font-weight: bold;
-        margin-top: 0px;
-    margin-bottom: 0px;
+.didascalie-immagini{
+    font-size: smaller;
+}
+
+.evidenziato{
+    background-color: khaki;
+}
+
+.articolo-tabella{
+    border-collapse: collapse;
+}
+
+.tabella-intestazione{
+    background-color: #4EA1FF;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+
+.tabella-riga-stile1{
+    background-color: aqua;
+    text-align: left;
+}
+
+.terza-colonna{
+    width: 50%;
+}
+
+.pie-pagina-immagine{
     margin-left: 0px;
-    margin-right: 0px;
+}
+
+.pie-pagina-immagine{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.pie-pagina-immagine1{
+    background-image: url(./img/monitor.jpg);
+}
+
+.pie-pagina-immagine2{
+    background-image: url(./img/graph.jpg);
+}
+
+.potrebbero-interessarti{
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.formattazione-lista{
+    margin-left: -20px;
 }

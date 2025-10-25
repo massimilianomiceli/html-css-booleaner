@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
-
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="sito-intestazione">
         <h1 class="sito-titolo">The Booleaner</h1>
-         <img class="logo" src="./img/logo.svg" alt="logo The Booleaner">
+        <img class="logo" src="./img/logo.svg" alt="logo The Booleaner">
     </header>
-    <main class="sito-corpo">
+    <main class="pagina-bordi">
         <article class="post">
             <header class="articolo-intestazione">
                 <h2 class="articolo-titolo">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h2>
-                <h3 class="articolo-autore">Scritto da <id="the-booleaner">The Booleaner</id></h3>
+                <h3 class="articolo-autore font-grigio">Scritto da <span id="the-booleaner">The Booleaner</span></h3>
                 <h4 class="articolo-data">il 10/10/2020</h4>
             </header>
-            <figure class="articolo-immagine1">
+            <div class="foto">
                 <img src="./img/tim-1.jpg" alt="prima foto raffigurante Tim Berner-Lee che parla ad una conferenza">
-            </figure>
-            <figure class="articolo-immagine2">
                 <img src="./img/tim-2.jpg" alt="seconda foto raffigurante Tim Berner-Lee in primo piano che sorride">
-            </figure>
-            <h5>1st Photo: John S. and James L. Knight Foundation, by Scott Herichsen</h5>
-            <h5>2nd Photo: Wikimedia, by Paul Clarke</h5>
-            <p class="articolo-corpo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam accusantium blanditiis quidem quas maiores aliquid perferendis provident quibusdam et, at, minus atque corrupti distinctio quis. Saepe in qui nobis molestias!</p>
+                <br>
+                    <div class="didascalie-immagini">
+                        1st Photo: John S. and James L. Knight Foundation, by Scott Herichsen<br>    
+                        2nd Photo: Wikimedia, by Paul Clarke
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur <span class="evidenziato">elit. Aperiam accusantium blanditiis quidem quas maiores aliquid perferendis provident</span>  quibusdam et, at, minus atque corrupti distinctio quis. Saepe in qui nobis molestias!</p>
             <ul>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
+                <li class="formattazione-lista">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
+                <li class="formattazione-lista">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
+                <li class="formattazione-lista">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic itaque similique reiciendis! Libero obcaecati iusto perspiciatis rerum delectus vero incidunt soluta veritatis tenetur culpa nostrum, sunt reiciendis eveniet! Ut, sint?</li>
             </ul>
-            <table>
+            <table class="articolo-tabella">
                 <thead class="tabella-intestazione">
                     <tr>
                         <th>Lorem ipsum dolor</th>
@@ -45,7 +45,7 @@
                     <tr class="tabella-riga-stile1">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum reprehenderit, consequatur corrupti, numquam atque tempore voluptatem minus, mollitia ad facere similique modi! Fugit ex hic architecto amet mollitia sit!</td>
+                        <td class="terza-colonna">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum reprehenderit, consequatur corrupti, numquam atque tempore voluptatem minus, mollitia ad facere similique modi! Fugit ex hic architecto amet mollitia sit!</td>
                     </tr>
                     <tr class="tabella-riga-stile2">
                         <td>Lorem ipsum dolor</td>
@@ -59,18 +59,16 @@
                     </tr>
                 </tbody>
             </table>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nesciunt quisquam quasi officiis reprehenderit tempore obcaecati facilis, ex corrupti distinctio qui hic assumenda perferendis odio esse eaque architecto doloribus enim.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nesciunt quisquam quasi officiis <span class="evidenziato">reprehenderit tempore obcaecati facilis, ex corrupti</span> distinctio qui hic assumenda perferendis odio esse eaque architecto doloribus enim.</p>
         </article>
     </main>
-    <footer>
-        <h2>Potrebbero interessarti</h2>
-            <figure class="pie-pagina-immagine1">
-                <img src="./img/monitor.jpg" alt="immagine raffigurante un monitor">
-                <caption>Lorem ipsum dolor</caption>
+    <footer class="pagina-bordi">
+        <h2 class="font-grigio">Potrebbero interessarti</h2>
+            <figure class="pie-pagina-immagine pie-pagina-immagine1">
+                <h3 class="potrebbero-interessarti">Lorem ipsum dolor</h3>
             </figure>
-            <figure class="pie-pagina-immagine2">
-                <img src="./img/graph.jpg" alt="immagine raffigurante un grafico">
-                <caption>Lorem ipsum dolor</caption>
+            <figure class="pie-pagina-immagine pie-pagina-immagine2">
+                <h3 class="potrebbero-interessarti">Lorem ipsum dolor</h3>
             </figure>
     </footer>
 </body>
